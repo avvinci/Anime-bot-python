@@ -17,8 +17,8 @@ from nltk.stem import WordNetLemmatizer
 nltk.download('popular', quiet=True) # for downloading packages
 
 # uncomment the following only the first time
-#nltk.download('punkt') # first-time use only
-#nltk.download('wordnet') # first-time use only
+# nltk.download('punkt') # first-time use only
+# nltk.download('wordnet') # first-time use only
 
 
 #Reading in the corpus
@@ -69,7 +69,7 @@ def response(user_response):
 
 
 flag=True
-print("ROBO: My name is Robo. I will answer your queries about Chatbots. If you want to exit, type Bye!")
+print("ROBO: My name is Robo. I will answer your queries about Anime. \n If you want to exit, type Bye!")
 while(flag==True):
     user_response = input()
     user_response=user_response.lower()
